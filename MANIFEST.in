@@ -1,0 +1,4 @@
+include upsidedown.py
+include setup.py
+include README
+include COPYING
