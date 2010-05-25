@@ -30,7 +30,7 @@ ssǝuʇıɟ 'ʎʇılıqɐʇuɐɥɔɹǝɯ ɟo sǝıʇuɐɹɹɐʍ ǝɥʇ oʇ pǝʇ
 """
 
 __all__ = ["transform"]
-__version__ = '0.2'
+__version__ = '0.3'
 __author__ = 'Christoph Burgmer <cburgmer@ira.uka.de>'
 __url__ = 'http://github.com/cburgmer/upsidedown'
 __license__ = 'MIT'

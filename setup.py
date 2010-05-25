@@ -1,4 +1,6 @@
-from distutils.core import setup
+from ez_setup import use_setuptools
+use_setuptools()
+from setuptools import setup
 import re
 import upsidedown
 
@@ -16,6 +18,11 @@ setup(name='upsidedown',
     url=URL,
     download_url='http://github.com/cburgmer/upsidedown/downloads',
     py_modules=['upsidedown'],
+    entry_points={
+        'console_scripts': [
+            'upsidedown = upsidedown:main',
+        ],
+    },
     license=LICENSE,
     classifiers=[
         'Environment :: Console',
