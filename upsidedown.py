@@ -11,22 +11,26 @@ proper rendering though.
 
 2008-2010 Christoph Burgmer (cburgmer@ira.uka.de)
 
-      ˙ǝɹɐʍʇɟos ǝɥʇ uı sƃuılɐǝp ɹǝɥʇo ɹo ǝsn ǝɥʇ ɹo ǝɹɐʍʇɟos ǝɥʇ ɥʇıʍ uoıʇɔǝuuoɔ
-         uı ɹo ɟo ʇno 'ɯoɹɟ ƃuısıɹɐ 'ǝsıʍɹǝɥʇo ɹo ʇɹoʇ 'ʇɔɐɹʇuoɔ ɟo uoıʇɔɐ uɐ uı
-  ɹǝɥʇǝɥʍ 'ʎʇılıqɐıl ɹǝɥʇo ɹo sǝƃɐɯɐp 'ɯıɐlɔ ʎuɐ ɹoɟ ǝlqɐıl ǝq sɹǝploɥ ʇɥƃıɹʎdoɔ
-  ɹo sɹoɥʇnɐ ǝɥʇ llɐɥs ʇuǝʌǝ ou uı ˙ʇuǝɯǝƃuıɹɟuıuou puɐ ǝsodɹnd ɹɐlnɔıʇɹɐd ɐ ɹoɟ
-ssǝuʇıɟ 'ʎʇılıqɐʇuɐɥɔɹǝɯ ɟo sǝıʇuɐɹɹɐʍ ǝɥʇ oʇ pǝʇıɯıl ʇou ʇnq ƃuıpnlɔuı 'pǝıldɯı
-      ɹo ssǝɹdxǝ 'puıʞ ʎuɐ ɟo ʎʇuɐɹɹɐʍ ʇnoɥʇıʍ '"sı sɐ" pǝpıʌoɹd sı ǝɹɐʍʇɟos ǝɥʇ
-                                 ˙ǝɹɐʍʇɟos ǝɥʇ ɟo suoıʇɹod lɐıʇuɐʇsqns ɹo sǝıdoɔ
-  llɐ uı pǝpnlɔuı ǝq llɐɥs ǝɔıʇou uoıssıɯɹǝd sıɥʇ puɐ ǝɔıʇou ʇɥƃıɹʎdoɔ ǝʌoqɐ ǝɥʇ
-                                            :suoıʇıpuoɔ ƃuıʍolloɟ ǝɥʇ oʇ ʇɔǝɾqns
- 'os op oʇ pǝɥsıuɹnɟ sı ǝɹɐʍʇɟos ǝɥʇ ɯoɥʍ oʇ suosɹǝd ʇıɯɹǝd oʇ puɐ 'ǝɹɐʍʇɟos ǝɥʇ
-ɟo sǝıdoɔ llǝs ɹo/puɐ 'ǝsuǝɔılqns 'ǝʇnqıɹʇsıp 'ɥsılqnd 'ǝƃɹǝɯ 'ʎɟıpoɯ 'ʎdoɔ 'ǝsn
-    oʇ sʇɥƃıɹ ǝɥʇ uoıʇɐʇıɯıl ʇnoɥʇıʍ ƃuıpnlɔuı 'uoıʇɔıɹʇsǝɹ ʇnoɥʇıʍ ǝɹɐʍʇɟos ǝɥʇ
-   uı lɐǝp oʇ '("ǝɹɐʍʇɟos" ǝɥʇ) sǝlıɟ uoıʇɐʇuǝɯnɔop pǝʇɐıɔossɐ puɐ ǝɹɐʍʇɟos sıɥʇ
- ɟo ʎdoɔ ɐ ƃuıuıɐʇqo uosɹǝd ʎuɐ oʇ 'ǝƃɹɐɥɔ ɟo ǝǝɹɟ 'pǝʇuɐɹƃ ʎqǝɹǝɥ sı uoıssıɯɹǝd
+            ˙ƎᴚⱯM⊥ᖵOS ƎH⊥ NI S⅁NIꞀⱯƎᗡ ᴚƎH⊥O ᴚO ƎS∩ ƎH⊥ ᴚO ƎᴚⱯM⊥ᖵOS ƎH⊥ H⊥IM
+       NOI⊥ƆƎNNOƆ NI ᴚO ᖵO ⊥∩O 'WOᴚᖵ ⅁NISIᴚⱯ 'ƎSIMᴚƎH⊥O ᴚO ⊥ᴚO⊥ '⊥ƆⱯᴚ⊥NOƆ ᖵO
+        NOI⊥ƆⱯ NⱯ NI ᴚƎH⊥ƎHM '⅄⊥IꞀIᗺⱯIꞀ ᴚƎH⊥O ᴚO SƎ⅁ⱯWⱯᗡ 'WIⱯꞀƆ ⅄NⱯ ᴚOᖵ ƎꞀᗺⱯIꞀ
+       Ǝᗺ SᴚƎᗡꞀOH ⊥H⅁Iᴚ⅄ԀOƆ ᴚO SᴚOH⊥∩Ɐ ƎH⊥ ꞀꞀⱯHS ⊥NƎɅƎ ON NI ˙⊥NƎWƎ⅁NIᴚᖵNINON
+                         ᗡNⱯ ƎSOԀᴚ∩Ԁ ᴚⱯꞀ∩ƆI⊥ᴚⱯԀ Ɐ ᴚOᖵ SSƎN⊥Iᖵ '⅄⊥IꞀIᗺⱯ⊥NⱯHƆᴚƎW
+          ᖵO SƎI⊥NⱯᴚᴚⱯM ƎH⊥ O⊥ ᗡƎ⊥IWIꞀ ⊥ON ⊥∩ᗺ ⅁NIᗡ∩ꞀƆNI 'ᗡƎIꞀԀWI ᴚO SSƎᴚԀXƎ
+             'ᗡNI⋊ ⅄NⱯ ᖵO ⅄⊥NⱯᴚᴚⱯM ⊥∩OH⊥IM '„SI SⱯ„ ᗡƎᗡIɅOᴚԀ SI ƎᴚⱯM⊥ᖵOS ƎH⊥
 
-                                                            ǝsuǝɔıl ʇıɯ :ǝsuǝɔıl
+                   ˙ǝɹɐʍʇɟoS ǝɥʇ ɟo suoᴉʇɹod ꞁɐᴉʇuɐʇsqns ɹo sǝᴉdoɔ ꞁꞁɐ uᴉ pǝpnꞁɔuᴉ
+                  ǝq ꞁꞁɐɥs ǝɔᴉʇou uoᴉssᴉɯɹǝd sᴉɥʇ puɐ ǝɔᴉʇou ʇɥƃᴉɹʎdoɔ ǝʌoqɐ ǝɥ⊥
+
+                                                        :suoᴉʇᴉpuoɔ ƃuᴉʍoꞁꞁoɟ ǝɥʇ
+           oʇ ʇɔǝɾqns 'os op oʇ pǝɥsᴉuɹnɟ sᴉ ǝɹɐʍʇɟoS ǝɥʇ ɯoɥʍ oʇ suosɹǝd ʇᴉɯɹǝd
+                oʇ puɐ 'ǝɹɐʍʇɟoS ǝɥʇ ɟo sǝᴉdoɔ ꞁꞁǝs ɹo/puɐ 'ǝsuǝɔᴉꞁqns 'ǝʇnqᴉɹʇsᴉp
+              'ɥsᴉꞁqnd 'ǝƃɹǝɯ 'ʎɟᴉpoɯ 'ʎdoɔ 'ǝsn oʇ sʇɥƃᴉɹ ǝɥʇ uoᴉʇɐʇᴉɯᴉꞁ ʇnoɥʇᴉʍ
+              ƃuᴉpnꞁɔuᴉ 'uoᴉʇɔᴉɹʇsǝɹ ʇnoɥʇᴉʍ ǝɹɐʍʇɟoS ǝɥʇ uᴉ ꞁɐǝp oʇ '(„ǝɹɐʍʇɟoS„
+                 ǝɥʇ) sǝꞁᴉɟ uoᴉʇɐʇuǝɯnɔop pǝʇɐᴉɔossɐ puɐ ǝɹɐʍʇɟos sᴉɥʇ ɟo ʎdoɔ ɐ
+           ƃuᴉuᴉɐʇqo uosɹǝd ʎuɐ oʇ 'ǝƃɹɐɥɔ ɟo ǝǝɹɟ 'pǝʇuɐɹƃ ʎqǝɹǝɥ sᴉ uoᴉssᴉɯɹǝԀ
+
+                                                                   ⊥IW :ǝsuǝɔᴉꞀ
 """
 
 __all__ = ["transform"]
@@ -36,11 +40,18 @@ __url__ = 'http://github.com/cburgmer/upsidedown'
 __license__ = 'MIT'
 
 import unicodedata
+import string
 
-BASE_LATIN_FLIP = u"ɐqɔpǝɟƃɥıɾʞlɯuodbɹsʇnʌʍxʎz"
-
-OTHERS_FLIP = {'!': u'¡', '?': u'¿', '(': ')', '{': '}', ';': u'؛', '>': '<',
-    '\'': ',','.': u'˙'}
+# Define dual character. Make sure that mapping is bijective.
+FLIP_RANGES = [
+    (string.ascii_lowercase, u"ɐqɔpǝɟƃɥᴉɾʞꞁɯuodbɹsʇnʌʍxʎz"),
+    # alternatives: l:ʅ
+    (string.ascii_uppercase, u"ⱯᗺƆᗡƎᖵ⅁HIᒋ⋊ꞀWNOԀꝹᴚS⊥∩ɅMX⅄Z"),
+    # alternatives: L:ᒣ⅂, J:ſ, F:߃Ⅎ, A:∀ᗄ, U:Ⴖ, W:Ϻ, C:ϽↃ, Q:Ό, M:Ɯꟽ
+    (string.digits, u"0ІᘔƐᔭ59Ɫ86"),
+    (string.punctuation, u"¡„#$%⅋,)(*+'-˙/:؛>=<¿@]\\[ᵥ‾`}|{~"),
+    ]
+# See also http://www.fileformat.info/convert/text/upside-down-map.htm
 
 # See:
 # http://de.wikipedia.org/wiki/Unicode-Block_Kombinierende_diakritische_Zeichen
@@ -51,11 +62,16 @@ UNICODE_COMBINING_DIACRITICS = {u'̈': u'̤', u'̊': u'̥', u'́': u'̗', u'̀':
 TRANSLITERATIONS = {u'ß': 'ss'}
 
 # character lookup
-_CHARLOOKUP = dict([(unichr(charOrd), BASE_LATIN_FLIP[i]) for i, charOrd \
-    in enumerate(range(ord('a'), ord('z') + 1))])
-_CHARLOOKUP.update(OTHERS_FLIP)
+_CHARLOOKUP = {}
+for chars, flipped in FLIP_RANGES:
+    _CHARLOOKUP.update(zip(chars, flipped))
+
 # get reverse direction
 for char in _CHARLOOKUP.copy():
+    # make 1:1 back transformation possible
+    assert (_CHARLOOKUP[char] not in _CHARLOOKUP
+        or _CHARLOOKUP[_CHARLOOKUP[char]] == char), \
+        ("%s has ambiguous mapping" % _CHARLOOKUP[char])
     _CHARLOOKUP[_CHARLOOKUP[char]] = char
 
 # lookup for diacritical marks, reverse first
@@ -70,18 +86,17 @@ def transform(string, transliterations=None):
     Example:
 
         >>> import upsidedown
-        >>> print upsidedown.transform('hello world!')
-        ¡plɹoʍ ollǝɥ
+        >>> print upsidedown.transform('Hello World!')
+        ¡pꞁɹoM oꞁꞁǝH
 
     For languages with diacritics you might want to supply a transliteration to
     work around missing (rendering of) upside-down forms:
         >>> import upsidedown
-        >>> print upsidedown.transform(u'Köln', transliterations={u'ö': 'oe'})
+        >>> print upsidedown.transform(u'köln', transliterations={u'ö': 'oe'})
         ulǝoʞ
     """
     transliterations = transliterations or TRANSLITERATIONS
 
-    string = string.lower()
     for character in transliterations:
         string = string.replace(character, transliterations[character])
 
@@ -112,13 +127,16 @@ def main():
     import locale
     _, default_encoding = locale.getdefaultlocale()
 
+    output = []
     line = sys.stdin.readline().decode(default_encoding)
 
     while line:
         line = line.strip("\n")
-        print transform(line).encode(default_encoding)
+        output.append(transform(line).encode(default_encoding))
 
         line = sys.stdin.readline().decode(default_encoding)
+    output.reverse()
+    print "\n".join(output)
 
 if __name__ == "__main__":
     main()
