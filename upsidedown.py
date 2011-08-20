@@ -107,7 +107,7 @@ def transform(input_str, transliterations=None):
         else:
             char_normalised = unicodedata.normalize("NFD", character)
 
-            for c in char_normalised[:]:
+            for c in char_normalised:
                 if c in _CHARLOOKUP:
                     char_normalised = char_normalised.replace(c, _CHARLOOKUP[c])
                 elif c in _DIACRITICSLOOKUP:
