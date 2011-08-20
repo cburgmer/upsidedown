@@ -100,11 +100,8 @@ def transform(string, transliterations=None):
     for character in transliterations:
         string = string.replace(character, transliterations[character])
 
-    inputChars = list(string)
-    inputChars.reverse()
-
     output = []
-    for character in inputChars:
+    for character in reversed(string):
         if character in _CHARLOOKUP:
             output.append(_CHARLOOKUP[character])
         else:
