@@ -70,16 +70,16 @@ for chars, flipped in FLIP_RANGES:
 for char in _CHARLOOKUP.copy():
     # make 1:1 back transformation possible
     assert (_CHARLOOKUP[char] not in _CHARLOOKUP
-        or _CHARLOOKUP[_CHARLOOKUP[char]] == char), \
-        ("%s has ambiguous mapping" % _CHARLOOKUP[char])
+            or _CHARLOOKUP[_CHARLOOKUP[char]] == char), \
+            ("%s has ambiguous mapping" % _CHARLOOKUP[char])
     _CHARLOOKUP[_CHARLOOKUP[char]] = char
 
 # lookup for diacritical marks, reverse first
-_DIACRITICSLOOKUP = dict([(UNICODE_COMBINING_DIACRITICS[char], char) \
-    for char in UNICODE_COMBINING_DIACRITICS])
+_DIACRITICSLOOKUP = dict((UNICODE_COMBINING_DIACRITICS[char], char)
+                         for char in UNICODE_COMBINING_DIACRITICS)
 _DIACRITICSLOOKUP.update(UNICODE_COMBINING_DIACRITICS)
 
-def transform(string, transliterations=None):
+def transform(input_str, transliterations=None):
     u"""
     Transform the string to "upside-down" writing.
 
@@ -98,23 +98,24 @@ def transform(string, transliterations=None):
     transliterations = transliterations or TRANSLITERATIONS
 
     for character in transliterations:
-        string = string.replace(character, transliterations[character])
+        input_str = input_str.replace(character, transliterations[character])
 
     output = []
-    for character in reversed(string):
+    for character in reversed(input_str):
         if character in _CHARLOOKUP:
             output.append(_CHARLOOKUP[character])
         else:
-            charNormalised = unicodedata.normalize("NFD", character)
+            char_normalised = unicodedata.normalize("NFD", character)
 
-            for c in charNormalised[:]:
+            for c in char_normalised[:]:
                 if c in _CHARLOOKUP:
-                    charNormalised = charNormalised.replace(c, _CHARLOOKUP[c])
+                    char_normalised = char_normalised.replace(c, _CHARLOOKUP[c])
                 elif c in _DIACRITICSLOOKUP:
-                    charNormalised = charNormalised.replace(c,
-                        _DIACRITICSLOOKUP[c])
+                    char_normalised = char_normalised.replace(
+                                                        c,
+                                                        _DIACRITICSLOOKUP[c])
 
-            output.append(unicodedata.normalize("NFC", charNormalised))
+            output.append(unicodedata.normalize("NFC", char_normalised))
 
     return ''.join(output)
 
