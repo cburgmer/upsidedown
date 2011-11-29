@@ -93,7 +93,7 @@ def transform(input_str, transliterations=None):
     work around missing (rendering of) upside-down forms:
         >>> import upsidedown
         >>> print upsidedown.transform(u'köln', transliterations={u'ö': 'oe'})
-        ulǝoʞ
+        uꞁǝoʞ
     """
     transliterations = transliterations or TRANSLITERATIONS
 
