@@ -86,13 +86,13 @@ def transform(input_str, transliterations=None):
     Example:
 
         >>> import upsidedown
-        >>> print upsidedown.transform('Hello World!')
+        >>> print(upsidedown.transform('Hello World!'))
         ¡pꞁɹoM oꞁꞁǝH
 
     For languages with diacritics you might want to supply a transliteration to
     work around missing (rendering of) upside-down forms:
         >>> import upsidedown
-        >>> print upsidedown.transform(u'köln', transliterations={u'ö': 'oe'})
+        >>> print(upsidedown.transform(u'köln', transliterations={u'ö': 'oe'}))
         uꞁǝoʞ
     """
     transliterations = transliterations or TRANSLITERATIONS
@@ -134,7 +134,7 @@ def main():
 
         line = sys.stdin.readline().decode(default_encoding)
     output.reverse()
-    print "\n".join(output)
+    print("\n".join(output))
 
 if __name__ == "__main__":
     main()
