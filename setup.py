@@ -1,5 +1,7 @@
-from setuptools import setup
 import re
+import codecs
+
+from setuptools import setup
 import upsidedown
 
 VERSION = str(upsidedown.__version__)
@@ -7,12 +9,16 @@ VERSION = str(upsidedown.__version__)
 URL = upsidedown.__url__
 LICENSE = upsidedown.__license__
 
+
+with codecs.open('README', encoding='utf-8') as readme:
+    long_description = readme.read()
+
 setup(name='upsidedown',
     version=VERSION,
     author=AUTHOR,
     author_email=EMAIL,
     description='"Flip" characters in a string to create an "upside-down" impression.',
-    long_description=open('README').read().decode('utf8'),
+    long_description=long_description,
     url=URL,
     download_url='http://github.com/cburgmer/upsidedown/downloads',
     py_modules=['upsidedown'],
