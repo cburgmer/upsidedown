@@ -31,5 +31,5 @@ setup(name='upsidedown',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'License :: OSI Approved :: MIT License',
-	'Topic :: Text Processing',
+        'Topic :: Text Processing',
         ])
