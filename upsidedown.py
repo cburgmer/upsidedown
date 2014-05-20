@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-u"""
+"""
 Simple module that "flips" latin characters in a string to create an
 "upside-down" impression. Makes extensive use of compatible latin characters
 encoded in Unicode.
@@ -44,22 +44,22 @@ import string
 
 # Define dual character. Make sure that mapping is bijective.
 FLIP_RANGES = [
-    (string.ascii_lowercase, u"ɐqɔpǝɟƃɥᴉɾʞꞁɯuodbɹsʇnʌʍxʎz"),
+    (string.ascii_lowercase, "ɐqɔpǝɟƃɥᴉɾʞꞁɯuodbɹsʇnʌʍxʎz"),
     # alternatives: l:ʅ
-    (string.ascii_uppercase, u"ⱯᗺƆᗡƎᖵ⅁HIᒋ⋊ꞀWNOԀꝹᴚS⊥∩ɅMX⅄Z"),
+    (string.ascii_uppercase, "ⱯᗺƆᗡƎᖵ⅁HIᒋ⋊ꞀWNOԀꝹᴚS⊥∩ɅMX⅄Z"),
     # alternatives: L:ᒣ⅂, J:ſ, F:߃Ⅎ, A:∀ᗄ, U:Ⴖ, W:Ϻ, C:ϽↃ, Q:Ό, M:Ɯꟽ
-    (string.digits, u"0ІᘔƐᔭ59Ɫ86"),
-    (string.punctuation, u"¡„#$%⅋,)(*+'-˙/:؛>=<¿@]\\[ᵥ‾`}|{~"),
+    (string.digits, "0ІᘔƐᔭ59Ɫ86"),
+    (string.punctuation, "¡„#$%⅋,)(*+'-˙/:؛>=<¿@]\\[ᵥ‾`}|{~"),
     ]
 # See also http://www.fileformat.info/convert/text/upside-down-map.htm
 
 # See:
 # http://de.wikipedia.org/wiki/Unicode-Block_Kombinierende_diakritische_Zeichen
-UNICODE_COMBINING_DIACRITICS = {u'̈': u'̤', u'̊': u'̥', u'́': u'̗', u'̀': u'̖',
-    u'̇': u'̣', u'̃': u'̰', u'̄': u'̱', u'̂': u'̬', u'̆': u'̯', u'̌': u'̭',
-    u'̑': u'̮', u'̍': u'̩'}
+UNICODE_COMBINING_DIACRITICS = {'̈': '̤', '̊': '̥', '́': '̗', '̀': '̖',
+    '̇': '̣', '̃': '̰', '̄': '̱', '̂': '̬', '̆': '̯', '̌': '̭',
+    '̑': '̮', '̍': '̩'}
 
-TRANSLITERATIONS = {u'ß': 'ss'}
+TRANSLITERATIONS = {'ß': 'ss'}
 
 # character lookup
 _CHARLOOKUP = {}
@@ -70,17 +70,17 @@ for chars, flipped in FLIP_RANGES:
 for char in _CHARLOOKUP.copy():
     # make 1:1 back transformation possible
     assert (_CHARLOOKUP[char] not in _CHARLOOKUP
-            or _CHARLOOKUP[_CHARLOOKUP[char]] == char), \
-            ("%s has ambiguous mapping" % _CHARLOOKUP[char])
+        or _CHARLOOKUP[_CHARLOOKUP[char]] == char), \
+        ("%s has ambiguous mapping" % _CHARLOOKUP[char])
     _CHARLOOKUP[_CHARLOOKUP[char]] = char
 
 # lookup for diacritical marks, reverse first
-_DIACRITICSLOOKUP = dict((UNICODE_COMBINING_DIACRITICS[char], char)
-                         for char in UNICODE_COMBINING_DIACRITICS)
+_DIACRITICSLOOKUP = dict([(UNICODE_COMBINING_DIACRITICS[char], char) \
+    for char in UNICODE_COMBINING_DIACRITICS])
 _DIACRITICSLOOKUP.update(UNICODE_COMBINING_DIACRITICS)
 
-def transform(input_str, transliterations=None):
-    u"""
+def transform(string, transliterations=None):
+    """
     Transform the string to "upside-down" writing.
 
     Example:
@@ -92,47 +92,47 @@ def transform(input_str, transliterations=None):
     For languages with diacritics you might want to supply a transliteration to
     work around missing (rendering of) upside-down forms:
         >>> import upsidedown
-        >>> print(upsidedown.transform(u'köln', transliterations={u'ö': 'oe'}))
+        >>> print(upsidedown.transform('köln', transliterations={'ö': 'oe'}))
         uꞁǝoʞ
     """
     transliterations = transliterations or TRANSLITERATIONS
 
     for character in transliterations:
-        input_str = input_str.replace(character, transliterations[character])
+        string = string.replace(character, transliterations[character])
+
+    inputChars = list(string)
+    inputChars.reverse()
 
     output = []
-    for character in reversed(input_str):
+    for character in inputChars:
         if character in _CHARLOOKUP:
             output.append(_CHARLOOKUP[character])
         else:
-            char_normalised = unicodedata.normalize("NFD", character)
+            charNormalised = unicodedata.normalize("NFD", character)
 
-            for c in char_normalised:
+            for c in charNormalised[:]:
                 if c in _CHARLOOKUP:
-                    char_normalised = char_normalised.replace(c, _CHARLOOKUP[c])
+                    charNormalised = charNormalised.replace(c, _CHARLOOKUP[c])
                 elif c in _DIACRITICSLOOKUP:
-                    char_normalised = char_normalised.replace(
-                                                        c,
-                                                        _DIACRITICSLOOKUP[c])
+                    charNormalised = charNormalised.replace(c,
+                        _DIACRITICSLOOKUP[c])
 
-            output.append(unicodedata.normalize("NFC", char_normalised))
+            output.append(unicodedata.normalize("NFC", charNormalised))
 
     return ''.join(output)
 
 def main():
     """Main method for running upsidedown.py from the command line."""
     import sys
-    import locale
-    _, default_encoding = locale.getdefaultlocale()
 
     output = []
-    line = sys.stdin.readline().decode(default_encoding)
+    line = sys.stdin.readline()
 
     while line:
         line = line.strip("\n")
-        output.append(transform(line).encode(default_encoding))
+        output.append(transform(line))
 
-        line = sys.stdin.readline().decode(default_encoding)
+        line = sys.stdin.readline()
     output.reverse()
     print("\n".join(output))
 
