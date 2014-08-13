@@ -77,7 +77,7 @@ for char in _CHARLOOKUP.copy():
     _CHARLOOKUP[_CHARLOOKUP[char]] = char
 
 # lookup for diacritical marks, reverse first
-_DIACRITICSLOOKUP = dict([(UNICODE_COMBINING_DIACRITICS[char], char) \
+_DIACRITICSLOOKUP = dict([(UNICODE_COMBINING_DIACRITICS[char], char)
     for char in UNICODE_COMBINING_DIACRITICS])
 _DIACRITICSLOOKUP.update(UNICODE_COMBINING_DIACRITICS)
 
