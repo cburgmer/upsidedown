@@ -33,6 +33,8 @@ proper rendering though.
                                                                    ⊥IW :ǝsuǝɔᴉꞀ
 """
 
+from __future__ import unicode_literals
+
 __all__ = ["transform"]
 __version__ = '0.3'
 __author__ = 'Christoph Burgmer <cburgmer@ira.uka.de>'
