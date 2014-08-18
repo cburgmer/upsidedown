@@ -10,7 +10,7 @@ URL = upsidedown.__url__
 LICENSE = upsidedown.__license__
 
 
-with codecs.open('README', encoding='utf-8') as readme:
+with codecs.open('README.rst', encoding='utf-8') as readme:
     long_description = readme.read()
 
 setup(name='upsidedown',
