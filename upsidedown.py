@@ -36,8 +36,8 @@ proper rendering though.
 from __future__ import unicode_literals
 
 __all__ = ["transform"]
-__version__ = '0.3'
-__author__ = 'Christoph Burgmer <cburgmer@ira.uka.de>'
+__version__ = '0.4'
+__author__ = 'Christoph Burgmer <christoph.burgmer@gmail.com>'
 __url__ = 'http://github.com/cburgmer/upsidedown'
 __license__ = 'MIT'
 
