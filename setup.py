@@ -22,6 +22,7 @@ setup(name='upsidedown',
     url=URL,
     download_url='http://github.com/cburgmer/upsidedown/downloads',
     py_modules=['upsidedown'],
+    test_suite='tests',
     entry_points={
         'console_scripts': [
             'upsidedown = upsidedown:main',
