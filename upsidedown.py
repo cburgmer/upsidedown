@@ -33,6 +33,8 @@ proper rendering though.
                                                                    ⊥IW :ǝsuǝɔᴉꞀ
 """
 
+from __future__ import unicode_literals
+
 __all__ = ["transform"]
 __version__ = '0.3'
 __author__ = 'Christoph Burgmer <cburgmer@ira.uka.de>'
@@ -75,7 +77,7 @@ for char in _CHARLOOKUP.copy():
     _CHARLOOKUP[_CHARLOOKUP[char]] = char
 
 # lookup for diacritical marks, reverse first
-_DIACRITICSLOOKUP = dict([(UNICODE_COMBINING_DIACRITICS[char], char) \
+_DIACRITICSLOOKUP = dict([(UNICODE_COMBINING_DIACRITICS[char], char)
     for char in UNICODE_COMBINING_DIACRITICS])
 _DIACRITICSLOOKUP.update(UNICODE_COMBINING_DIACRITICS)
 
