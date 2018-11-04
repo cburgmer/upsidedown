@@ -1,5 +1,25 @@
 language: python
 python:
   - "2.7"
-  - "3.3"
+  - &latest_py3 "3.3"
+
+jobs:
+  fast_finish: true
+  include:
+  - stage: deploy
+    if: tag IS present
+    python: *latest_py3
+    install: skip
+    script: skip
+    deploy:
+      provider: pypi
+      on:
+        tags: true
+        all_branches: true
+      user: jaraco
+      password:
+        secure: ZF0Y1hYASTZ4hxEEN0eDQxlnPoUfE4xPSchGi/C7TtjKGGWRdOodeFN/Vj8sNMMESnLlY+h23MN0lthY43kyXtJSkj8k+UbYnGYqscd4gRKKbVyFiiPGuDXI7oopB01DE2GvrJT4OMIWS4UOJTb6nzS9FZEHwFO0H0YkbMJcKSY=
+      distributions: dists
+      skip_cleanup: true
+
 script: python setup.py test
