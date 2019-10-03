@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcburgmer%2Fupsidedown.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcburgmer%2Fupsidedown?ref=badge_shield)
+
 ==========
 Upsidedown
 ==========
@@ -30,3 +32,7 @@ You can also easily use this software on the command line::
 
     $ echo hello world\! | upsidedown
     ¡pꞁɹoʍ oꞁꞁǝɥ
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fcburgmer%2Fupsidedown.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fcburgmer%2Fupsidedown?ref=badge_large)
