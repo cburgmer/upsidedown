@@ -48,7 +48,7 @@ import string
 FLIP_RANGES = [
     (string.ascii_lowercase, "ɐqɔpǝɟƃɥᴉɾʞꞁɯuodbɹsʇnʌʍxʎz"),
     # alternatives: l:ʅ
-    (string.ascii_uppercase, "ⱯᗺƆᗡƎᖵ⅁HIᒋ⋊ꞀWNOԀꝹᴚS⊥∩ɅMX⅄Z"),
+    (string.ascii_uppercase, "ⱯᗺƆᗡƎᖵ⅁HIᒋꞰꞀWNOԀꝹᴚS⊥∩ɅMX⅄Z"),
     # alternatives: L:ᒣ⅂, J:ſ, F:߃Ⅎ, A:∀ᗄ, U:Ⴖ, W:Ϻ, C:ϽↃ, Q:Ό, M:Ɯꟽ
     (string.digits, "0ІᘔƐᔭ59Ɫ86"),
     (string.punctuation, "¡„#$%⅋,)(*+'-˙/:؛>=<¿@]\\[ᵥ‾`}|{~"),
