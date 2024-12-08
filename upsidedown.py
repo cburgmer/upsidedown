@@ -17,7 +17,7 @@ proper rendering though.
        Ǝᗺ SᴚƎᗡꞀOH ⊥H⅁Iᴚ⅄ԀOƆ ᴚO SᴚOH⊥∩Ɐ ƎH⊥ ꞀꞀⱯHS ⊥NƎɅƎ ON NI ˙⊥NƎWƎ⅁NIᴚᖵNINON
                          ᗡNⱯ ƎSOԀᴚ∩Ԁ ᴚⱯꞀ∩ƆI⊥ᴚⱯԀ Ɐ ᴚOᖵ SSƎN⊥Iᖵ '⅄⊥IꞀIᗺⱯ⊥NⱯHƆᴚƎW
           ᖵO SƎI⊥NⱯᴚᴚⱯM ƎH⊥ O⊥ ᗡƎ⊥IWIꞀ ⊥ON ⊥∩ᗺ ⅁NIᗡ∩ꞀƆNI 'ᗡƎIꞀԀWI ᴚO SSƎᴚԀXƎ
-             'ᗡNI⋊ ⅄NⱯ ᖵO ⅄⊥NⱯᴚᴚⱯM ⊥∩OH⊥IM '„SI SⱯ„ ᗡƎᗡIɅOᴚԀ SI ƎᴚⱯM⊥ᖵOS ƎH⊥
+             'ᗡNIꞰ ⅄NⱯ ᖵO ⅄⊥NⱯᴚᴚⱯM ⊥∩OH⊥IM '„SI SⱯ„ ᗡƎᗡIɅOᴚԀ SI ƎᴚⱯM⊥ᖵOS ƎH⊥
 
                    ˙ǝɹɐʍʇɟoS ǝɥʇ ɟo suoᴉʇɹod ꞁɐᴉʇuɐʇsqns ɹo sǝᴉdoɔ ꞁꞁɐ uᴉ pǝpnꞁɔuᴉ
                   ǝq ꞁꞁɐɥs ǝɔᴉʇou uoᴉssᴉɯɹǝd sᴉɥʇ puɐ ǝɔᴉʇou ʇɥƃᴉɹʎdoɔ ǝʌoqɐ ǝɥ⊥
@@ -48,7 +48,7 @@ import string
 FLIP_RANGES = [
     (string.ascii_lowercase, "ɐqɔpǝɟƃɥᴉɾʞꞁɯuodbɹsʇnʌʍxʎz"),
     # alternatives: l:ʅ
-    (string.ascii_uppercase, "ⱯᗺƆᗡƎᖵ⅁HIᒋ⋊ꞀWNOԀꝹᴚS⊥∩ɅMX⅄Z"),
+    (string.ascii_uppercase, "ⱯᗺƆᗡƎᖵ⅁HIᒋꞰꞀWNOԀꝹᴚS⊥∩ɅMX⅄Z"),
     # alternatives: L:ᒣ⅂, J:ſ, F:߃Ⅎ, A:∀ᗄ, U:Ⴖ, W:Ϻ, C:ϽↃ, Q:Ό, M:Ɯꟽ
     (string.digits, "0ІᘔƐᔭ59Ɫ86"),
     (string.punctuation, "¡„#$%⅋,)(*+'-˙/:؛>=<¿@]\\[ᵥ‾`}|{~"),
